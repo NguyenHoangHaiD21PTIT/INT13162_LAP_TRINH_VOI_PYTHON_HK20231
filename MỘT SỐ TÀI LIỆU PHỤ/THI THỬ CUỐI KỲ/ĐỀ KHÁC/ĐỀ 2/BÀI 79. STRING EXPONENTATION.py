@@ -1,5 +1,0 @@
-s1 = input()
-s = input()
-k = int(input())
-if(s1 * k == s): print("YES")
-else: print("NO")
