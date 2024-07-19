@@ -7,13 +7,13 @@ class HSinh:
         self.id = "HS" + "{:02d}".format(x)
         self.name = name
         self.tbc = custom_round(((a[0] + a[1]) * 2.0 + sum(a[2:])) / 12.0, 1)
-        if self.tbc >= 9.0:
+        if self.tbc >= 9:
             self.xeploai = "XUAT SAC"
-        elif self.tbc >= 8.0:
+        elif self.tbc >= 8:
             self.xeploai = "GIOI"
-        elif self.tbc >= 7.0:
+        elif self.tbc >= 7:
             self.xeploai = "KHA"
-        elif self.tbc >= 5.0:
+        elif self.tbc >= 5:
             self.xeploai = "TB"
         else:
             self.xeploai = "YEU"
