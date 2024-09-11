@@ -21,7 +21,9 @@ class Triangle :
         if(max(a, b, c) * 2 >= a + b + c) : 
             print('INVALID');
         else : 
-            print('{:.3f}'.format(a + b + c));
+            d = (a+b+c)/2
+            s = math.sqrt(d*(d-a)*(d-b)*(d-c))
+            print('{:.2f}'.format(s))
 
 a = [];
 t = int(input());
