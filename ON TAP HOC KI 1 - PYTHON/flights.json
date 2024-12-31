@@ -1,0 +1,24 @@
+{
+    "flights": [
+      { "year": "1950", "month": "January", "passengers": "140" },
+      { "year": "1950", "month": "February", "passengers": "139" },
+      { "year": "1950", "month": "March", "passengers": "140" },
+      { "year": "1950", "month": "April", "passengers": "140" },
+      { "year": "1950", "month": "May", "passengers": "140" },
+      { "year": "1950", "month": "June", "passengers": "139" },
+      { "year": "1950", "month": "July", "passengers": "140" },
+      
+      { "year": "1959", "month": "January", "passengers": "430" },
+      { "year": "1959", "month": "February", "passengers": "450" },
+      { "year": "1959", "month": "March", "passengers": "400" },
+      { "year": "1959", "month": "April", "passengers": "430" },
+      { "year": "1959", "month": "May", "passengers": "420" },
+      { "year": "1959", "month": "June", "passengers": "430" },
+      { "year": "1959", "month": "July", "passengers": "430" },
+      { "year": "1959", "month": "August", "passengers": "450" },
+      { "year": "1959", "month": "September", "passengers": "420" },
+      { "year": "1959", "month": "October", "passengers": "410" },
+      { "year": "1959", "month": "November", "passengers": "430" },
+      { "year": "1959", "month": "December", "passengers": "470" }
+    ]
+}
